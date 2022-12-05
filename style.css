@@ -64,7 +64,7 @@ ul{
     height: 60vh;
     /* border: 2px solid red; */
     text-align: center;
-    background: url('/banner-bg.webp')no-repeat center center/cover;
+    background: url(banner-bg.webp)no-repeat center center/cover;
 }
 .hcontent h1{
     font-size: 2rem;
