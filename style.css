@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    height: 13vh;
+}
+#head{
+    color: orange;
+    font-size: 2rem;
+    position: relative;
+    top: -3px;
+}
+nav .logo{
+    display: inline-flex;
+    margin-left: 5vw;
+    width: 15vw;
+    /* border: 2px solid green; */
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.4rem;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    /* border: 2px solid red; */
+    margin-left: 8vw;
+}
+.navitems{
+    margin: 10px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    padding: 10px;
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 100,
+  'opsz' 100,
+}
+.icons{
+    display: inline;
+    margin-left: 10vw;
+}
+.icons span{
+    padding: 8px;
+    /* border: 1px solid grey; */
+    margin: .1px;
+    background-color: rgb(238 236 236);
+   
+}
+/* home */
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    /* border: 2px solid red; */
+    text-align: center;
+    background: url('/banner-bg.webp')no-repeat center center/cover;
+}
+.hcontent h1{
+    font-size: 2rem;
+    margin: 10px;
+    color: rgb(6, 6, 120);
+}
+.hcontent h1 span{
+    color: orange;
+}
+.hcontent #btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: relative;
+    top: 35px;
+    text-decoration: none;
+    color: black;
+}
+/* page2 */
+#review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /* border: 2px solid red; */
+}
+.p2content{
+    text-align: center;
+
+}
+.rev{
+    width: 80vw;
+    height: 45vh;
+    /* border: 2px solid red; */
+}
+.p2content img{
+    border-radius: 50%;
+    width: 80px;
+    position: relative;
+    margin-top: 15px;
+    
+}
+.p2content h1{
+    font-size: 2rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    position: relative;
+    top: -20px;
+
+}
+.p2content p{
+    margin: 20px;
+}
+p.name{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+/* Blog */
+#blog{
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+
+}
+#blog h1{
+    font-size: 2rem;
+    
+}
+#blog h1 span{
+    color: orange;
+}
+.grid{
+    margin-top: 6vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90vw;
+    /* border: 2px solid red; */
+    height: 80vh;
+    /* background-color: rgb(242, 239, 239); */
+    background-color: rgb(235, 233, 233);
+
+
+}
+.griditems img{
+    /* width: 20vw; */
+    /* border: 2px solid red; */
+    height: 40vh;
+    width: 25.8vw;
+    
+}
+.griditems{
+    height: 80vh;
+    /* border: 1px solid red; */
+    width: 26vw;
+    background-color: white;
+
+}
+.griditems p span{
+    color: orange;
+    margin: 0px 65px;
+    font-size: 2rem;
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.griditems h3{
+line-height: 2rem;
+text-align: center;
+}
+.gridtext{
+    line-height: 2rem;
+}
+.griditems a{
+    position: relative;
+    top: 40px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius:10px;
+}
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+.footer{
+    background: #fff;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--black);
+    padding:1rem 0;
+}
+
+.footer .box-container .box h3 i{
+    color:var(--orange);
+}
+
+.footer .box-container .box .links{
+    display: block;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.footer .box-container .box .links i{
+    color:var(--orange);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i{
+    padding-right: 2rem;
+}
+
+
+.footer .box-container .box p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.footer .box-container .box .share a{
+    height:4rem;
+    width:4rem;
+    line-height:4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color:var(--black);
+    margin-right: .2rem;
+    background: #eee;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover{
+    background: var(--orange);
+    color: #fff;
+}
+
+.footer .box-container .box .email{
+    width: 100%;
+    margin:.7rem 0;
+    padding:1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+}
+
+.footer .box-container .box .payment-img{
+    margin-top: 2rem;
+    height: 3rem;
+    display: block;
+}
+
+.footer .credit{
+    text-align: center;
+    margin-top: 2rem;
+    padding:1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:var(--black);
+    border-top: var(--border);
+}
+
+.footer .credit span{
+    color:var(--orange);
+}
+.footer a{
+    text-decoration: none;
+}
+.footer{
+    /* color: orange; */
+    background-color: #eee;
+}
+
+
